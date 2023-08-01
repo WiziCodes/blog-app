@@ -30,7 +30,6 @@ function animator() {
     }
   }
 console.log(innerWidth)
-
 sliderFront.forEach((arrow, i) => {
   const itemNum = movielist[i].querySelectorAll("img").length;
   let counter = 0;
