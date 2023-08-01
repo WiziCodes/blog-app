@@ -21,12 +21,12 @@ icon.addEventListener("click", animator)
 function animator() {
   var state = Phonelinks.style.transform;
 
-    if (state == "translateX(250px)") {
+    if (state == "translateX(150px)") {
       Phonelinks.style.transform = "translateX(0px)"
-      Phonelinks.style.transition = "0.9s all ease-in-out"
+      Phonelinks.style.transition = "0.5s all ease-in-out"
 
     } else {
-      Phonelinks.style.transform = "translateX(250px)"
+      Phonelinks.style.transform = "translateX(150px)"
     }
   }
 console.log(innerWidth)
